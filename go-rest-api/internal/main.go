@@ -5,6 +5,12 @@ import (
 	"html"
 	"log"
 	"net/http"
+
+	"github.com/giant995/learning-go-by-examples/go-rest-api/pkg/swagger/server/restapi"
+	"github.com/go-openapi/loads"
+	"github.com/go-openapi/runtime/middleware"
+
+	"github.com/giant995/learning-go-by-examples/go-rest-api/pkg/swagger/server/restapi/operations"
 )
 
 func main() {
